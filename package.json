@@ -1,0 +1,28 @@
+{
+  "name": "strova-demo-project",
+  "version": "1.0.0",
+  "description": "Examples of strova-validation, strova-assert and babel-plugin-comment-strova-assert",
+  "scripts": {
+    "plugin-example": "BABEL_ENV=error babel-node src/plugin-example.js",
+    "assert-example": "babel-node src/assert-example.js"
+  },
+  "keywords": [
+    "demo",
+    "strova-assert",
+    "strova-validation"
+  ],
+  "author": "Vojtěch Šobáň <vojtech.soban@gmail.com> (https://github.com/vojtechsoban)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-comment-strova-assert": "^1.3.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "strova-assert": "^1.1.0",
+    "strova-validation": "^1.2.1"
+  }
+}

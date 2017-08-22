@@ -1,0 +1,43 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "env": {
+    "default": {
+      "plugins": [
+        "babel-plugin-comment-strova-assert"
+      ]
+    },
+    "info": {
+      "plugins": [
+        [
+          "babel-plugin-comment-strova-assert",
+          {
+            "action": "log_info"
+          }
+        ]
+      ]
+    },
+    "error": {
+      "plugins": [
+        [
+          "babel-plugin-comment-strova-assert",
+          {
+            "action": "log_error"
+          }
+        ]
+      ]
+    },
+    "throw": {
+      "plugins": [
+        [
+          "babel-plugin-comment-strova-assert",
+          {
+            "action": "throw"
+          }
+        ]
+      ]
+    }
+  }
+}
